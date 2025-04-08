@@ -1,15 +1,12 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        if(nums.size() == 0) return 0;
-
-        int i = 0; // slow pointer
-        for(int j = 1; j < nums.size(); j++) {
-            if(nums[j] != nums[i]) {
-                i++;
-                nums[i] = nums[j];
+        int k = 1; // Start from 1st index since nums[0] is always unique
+        for(int i = 1; i < nums.size(); i++) {
+            if(nums[i] != nums[k - 1]) {
+                nums[k++] = nums[i];
             }
         }
-        return i + 1; // Length of array with unique elements
+        return nums.empty() ? 0 : k;
     }
 };
