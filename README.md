@@ -18,7 +18,31 @@ Explore the solutions by topic or difficulty to gain insights into different pro
 ## 📌 Future Enhancements  
 - Expand solution coverage across all major LeetCode categories.  
 - Add detailed problem explanations and code walkthroughs for better clarity.  
-- Include performance analysis and optimization notes for key problems.  
+- Include performance analysis and optimization notes for key problems.
+
+## 📂 Repo Structure
+
+Problems are being organized based on **difficulty levels**:
+
+```bash
+leetcode-elite/
+├── Easy/
+│   ├── two_sum.cpp
+│   ├── palindrome_number.cpp
+│   └── ...
+├── Medium/
+│   ├── add_two_numbers.cpp
+│   ├── longest_substring_without_repeating.cpp
+│   └── ...
+├── Hard/
+│   ├── merge_k_sorted_lists.cpp
+│   ├── regular_expression_matching.cpp
+│   └── ...
+├── Unsorted/
+│   ├── problem1.cpp
+│   ├── problem2.cpp
+│   └── ...
+└── README.md
 
 ---
 
