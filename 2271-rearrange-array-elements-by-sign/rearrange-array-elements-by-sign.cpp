@@ -9,7 +9,7 @@ public:
         int n = nums.size(); // Get the size of the input array
 
         // Create a result vector of the same size, initialized with 0
-        vector<int> ans(n, 0);
+        vector<int> ans(n);
 
         // Initialize two pointers:
         // 'pos' starts at 0 for placing positive numbers at even indices
